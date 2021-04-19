@@ -6,6 +6,7 @@ $navbar-default-bg: black;
 body {
     background-image: asset-url('jumbotron.jpeg');
     background-size: cover;
+    object-fit: cover;
 }
 
 #logo {
