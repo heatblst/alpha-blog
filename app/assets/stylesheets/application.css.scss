@@ -4,9 +4,11 @@ $navbar-default-bg: black;
 @import "bootstrap";
 
 body {
-    background-image: asset-url('jumbotron.jpeg');
+    background: url(jumbotro.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    object-fit: cover;
 }
 
 #logo {
@@ -17,14 +19,16 @@ body {
     letter-spacing: -1px;
     font-weight: bold;
 }
-
+#labels{
+    font-size: 2.0em;
+}
 
 .center {
     text-align: center;
 }
 
 .home { 
-    margin-top: 53%;
+    margin-top: 30%;
 }
 
 .container {
