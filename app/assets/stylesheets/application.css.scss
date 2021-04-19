@@ -1,101 +1,73 @@
 $navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
-
 @import "bootstrap";
 
-body{
+body {
     background-image: asset-url('jumbotron.jpeg');
     background-size: cover;
 }
+
 #logo {
-
-float: left;
-
-font-size: 1.7em;
-
-color: #fff;
-
-text-transform: uppercase;
-
-letter-spacing: -1px;
-
-font-weight: bold;
-
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
 }
 
 
 .center {
-
-text-align: center;
-
+    text-align: center;
 }
 
-.home{
+.home { 
     margin-top: 53%;
 }
-.container{
+
+.container {
     padding-bottom: 50px;
 }
 
 footer {
-
-margin-top: 45px;
-
-padding-top: 5px;
-padding-bottom: 5px;
-
-border-top: 1px solid #eaeaea;
-background-color: rgb(43, 40, 40);
-color: #777;
-bottom: 0%;
-font-size: 1.7em;
-position: fixed;
-bottom: 0;
-width: 100%;
+    margin-top: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #eaeaea;
+    background-color: rgb(43, 40, 40);
+    color: #777;
+    bottom: 0%;
+    font-size: 1.7em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
 }
 
 footer a:hover {
-
-color: #fff;
-
+    color: #fff;
 }
 
 .article-actions {
-
     border-top: 1px solid #eaeaea;
-    
     padding-top: 5px;
-    
 }
     
-.description {
-    
+.description {    
     margin-top: 0;
-    
 }
 
 .article-title {
-
-    font-weight: bold;
-    
-    font-size: 1.5em;
-    
+    font-weight: bold; 
+    font-size: 1.5em;   
 }
     
 .article-body {
-    
     border-top: 1px solid #eaeaea;
-    
     padding-top: 15px;
-    
     padding-bottom: 15px;
-    
 }
-
-
-
 
 .signup {
     box-sizing: border-box;
@@ -106,7 +78,8 @@ color: #fff;
     padding: 1.1em;
     color: #fff;
     text-align: center;
-  }
+}
+
 .third {
     border-color: rgb(64, 99, 255);
     box-shadow: 0 0 40px 40px  rgb(64, 99, 255) inset, 0 0 0 0  rgb(64, 99, 255);
