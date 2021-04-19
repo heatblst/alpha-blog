@@ -20,6 +20,13 @@ class ArticlesController < ApplicationController
     def show
         
     end
+    
+    def destroy
+        
+        @article.destroy
+        flash[:success] = "Articles was successfully deleted"
+        redirect_to articles_path
+    end
 
     def edit
         
@@ -35,12 +42,7 @@ class ArticlesController < ApplicationController
         end
     end
 
-    def destroy
-        
-        @article.destroy
-        flash[:success] = "Articles was successfully deleted"
-        redirect_to articles_path
-    end
+    
 
     private
         def set_article
